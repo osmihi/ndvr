@@ -1,0 +1,43 @@
+{
+	"Education": [
+		{
+			"educationID": 1,
+			"portfolioID": 1,
+			"institutionName": "Metropolitan State University",
+			"location": "St. Paul, MN",
+			"startDate": "06/01/2011",
+			"endDate": "08/15/2013",
+			"degree": "B.S. Computer Science",
+			"gpa": "3.95",
+			"honors": "Summa Cum Laude",
+			"Skill": [1,2,3,4,6,10,14,15,16,18,19,20,22,23,25,27,29,33],
+			"Project": []
+		},
+		{
+			"educationID": 2,
+			"portfolioID": 1,
+			"institutionName": "Institute of Production and Recording",
+			"location": "Minneapolis, MN",
+			"startDate": "06/01/2006",
+			"endDate": "12/15/2007",
+			"degree": "A.A.S. Audio Production and Engineering",
+			"gpa": "4.0",
+			"honors": "Valedictorian",
+			"Skill": [],
+			"Project": []
+		},
+		{
+			"educationID": 3,
+			"portfolioID": 1,
+			"institutionName": "University of Minnesota",
+			"location": "Minneapolis, MN",
+			"startDate": "09/01/2002",
+			"endDate": "05/01/2006",
+			"degree": "B.A. Sociology",
+			"gpa": "3.6",
+			"honors": "",
+			"Skill": [],
+			"Project": []
+		}
+	]
+}

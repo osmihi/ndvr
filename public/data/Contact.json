@@ -1,0 +1,31 @@
+{
+	"Contact": [
+		{
+			"contactID": 1,
+			"portfolioID": 1,
+			"type": "phone",
+			"subType": "cell",
+			"contact": "651-353-8981"
+		},
+		{
+			"contactID": 2,
+			"portfolioID": 1,
+			"type": "email",
+			"contact": "othman@osmihi.com"
+		},
+		{
+			"contactID": 3,
+			"portfolioID": 1,
+			"type": "web",
+			"subType": "github",
+			"contact": "http://www.github.com/osmihi"
+		},
+		{
+			"contactID": 4,
+			"portfolioID": 1,
+			"type": "web",
+			"subType": "linkedin",
+			"contact": "https://www.linkedin.com/pub/othman-smihi/4a/aab/354"
+		}
+	]
+}

@@ -1,0 +1,175 @@
+{
+	"Project": [		
+		{
+			"projectID": 1,
+			"portfolioID": 1,
+			"seq": 1,
+			"name": "ID3 tag automation for radio archives",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 2,
+			"portfolioID": 1,
+			"seq": 2,
+			"name": "Radio traffic automated auditing system",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 3,
+			"portfolioID": 1,
+			"seq": 3,
+			"name": "Automated podcast publishing/archive system",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 4,
+			"portfolioID": 1,
+			"seq": 4,
+			"name": "Drum machine / vocoder (Reaktor)",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 5,
+			"portfolioID": 1,
+			"seq": 5,
+			"name": "Águila de esperanza website",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 6,
+			"portfolioID": 1,
+			"seq": 6,
+			"name": "Home recording studio",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 7,
+			"portfolioID": 1,
+			"seq": 7,
+			"name": "News clip and sound fx player for live radio use",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 8,
+			"portfolioID": 1,
+			"seq": 8,
+			"name": "Collaborative story-writing web app",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 9,
+			"portfolioID": 1,
+			"seq": 9,
+			"name": "Electronic music remix / performance instrument",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 10,
+			"portfolioID": 1,
+			"seq": 10,
+			"name": "Job search helper web app",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 11,
+			"portfolioID": 1,
+			"seq": 11,
+			"name": "osmihi.com website / content management system",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 12,
+			"portfolioID": 1,
+			"seq": 12,
+			"name": "Hinata idea2",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 13,
+			"portfolioID": 1,
+			"seq": 13,
+			"name": "",
+			"description": "Android RSS Feed Reader / Scraper",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 14,
+			"portfolioID": 1,
+			"seq": 14,
+			"name": "Nintendo-style RPG Battle Game",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 15,
+			"portfolioID": 1,
+			"seq": 15,
+			"name": "Easter Egg Delivery Simulation (Operating Systems)",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 16,
+			"portfolioID": 1,
+			"seq": 16,
+			"name": "OrdrUp: Restaurant Management Web / Mobile App",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 17,
+			"portfolioID": 1,
+			"seq": 17,
+			"name": "Wedding RSVP Site / App",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 18,
+			"portfolioID": 1,
+			"seq": 18,
+			"name": "ReadID3 - MP3 Tag Reader",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		},
+		{
+			"projectID": 19,
+			"portfolioID": 1,
+			"seq": 19,
+			"name": "djCalculator Web App",
+			"description": "",
+			"Example": [],
+			"Skill": []
+		}
+	]
+}

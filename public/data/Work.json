@@ -1,0 +1,52 @@
+{
+	"Work": [
+		{
+			"workID": 1,
+			"portfolioID": 1,
+			"companyName": "Infinite Campus",
+			"location": "Blaine, MN",
+			"title": "Software Engineer",
+			"startDate": "03/01/2014",
+			"endDate": "",
+			"Task": [1,2,3,4,5],
+			"Skill": [1,2,3,4,6,7,8,10,11,12,13,16,17,18,19,20,21,22,23,24,25,26,30,31],
+			"Project": []
+		},
+		{
+			"workID": 2,
+			"portfolioID": 1,
+			"companyName": "Infinite Campus",
+			"location": "Blaine, MN",
+			"title": "Software Product Analyst - Technical",
+			"startDate": "09/01/2012",
+			"endDate": "02/28/2014",
+			"Task": [6,7,8,9],
+			"Skill": [1,2,3,4,6,7,8,10,16,18,19,20,21,22,23,24,25,26,28,29,30,31,32,34],
+			"Project": []
+		},
+		{
+			"workID": 3,
+			"portfolioID": 1,
+			"companyName": "Infinite Campus",
+			"location": "Blaine, MN",
+			"title": "Software Engineer Intern",
+			"startDate": "05/01/2012",
+			"endDate": "08/31/2012",
+			"Task": [],
+			"Skill": [1,2,3,4,6,7,8,10,16,18,19,23,26,30,31],
+			"Project": []
+		},
+		{
+			"workID": 4,
+			"portfolioID": 1,
+			"companyName": "Hinata LLC",
+			"location": "Richfield, MN",
+			"title": "Web Developer, Managing Member",
+			"startDate": "01/01/2010",
+			"endDate": "12/31/2012",
+			"Task": [10,11],
+			"Skill": [1,2,3,4,5,6,9,10,11,13,14,15,17,18,19,20,21,22,23,24,25,27,28],
+			"Project": []
+		}
+	]
+}

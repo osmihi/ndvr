@@ -1,0 +1,72 @@
+{
+	"Task": [
+		{
+			"taskID": 1,
+			"workID": 1,
+			"seq": 1,
+			"description": "Design, maintain, and debug Java, JavaScript (jQuery, AngularJS), and XSL code of enterprise web app"
+		},
+		{
+			"taskID": 2,
+			"workID": 1,
+			"seq": 2,
+			"description": "Serve as lead developer on project, introducing team to Scrum workflow and coordinating planning efforts"
+		},
+		{
+			"taskID": 3,
+			"workID": 1,
+			"seq": 3,
+			"description": "Refactor code to increase maintainability, performance, cross-browser compatibility and documentation"
+		},
+		{
+			"taskID": 4,
+			"workID": 1,
+			"seq": 4,
+			"description": "Design and update schema of an extensive relational database; write and debug complex SQL queries"
+		},
+		{
+			"taskID": 5,
+			"workID": 1,
+			"seq": 5,
+			"description": "Facilitate and promote meaningful collaboration with developers, analysts, product managers, and others"
+		},
+		
+		{
+			"taskID": 6,
+			"workID": 2,
+			"seq": 1,
+			"description": "Analyze complex problems, conduct research, and engage with users to engineer detailed requirements"
+		},
+		{
+			"taskID": 7,
+			"workID": 2,
+			"seq": 2,
+			"description": "Conceptualize, design and deliver future-minded features & user interfaces to satisfy business drivers"
+		},
+		{
+			"taskID": 8,
+			"workID": 2,
+			"seq": 3,
+			"description": "Effectively communicate with stakeholders including end-users, clients, management & CEO"
+		},
+		{
+			"taskID": 9,
+			"workID": 2,
+			"seq": 4,
+			"description": "Develop product fixes and enhancements by writing JavaScript, Java, XSL, HTML, and CSS code"
+		},
+		
+		{
+			"taskID": 10,
+			"workID": 4,
+			"seq": 1,
+			"description": "Develop web sites and applications using PHP, JavaScript/jQuery with AJAX, HTML, and CSS"
+		},
+		{
+			"taskID": 11,
+			"workID": 4,
+			"seq": 2,
+			"description": "Communicate with clients to meet requirements and deliver quality work complete and on time"
+		}
+	]
+}

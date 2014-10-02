@@ -1,0 +1,246 @@
+{
+	"Skill": [
+		{
+			"skillID": 1,
+			"portfolioID": 1,
+			"category": "Programming Languages",
+			"seq": 1,
+			"name": "Java"
+		},
+		{
+			"skillID": 2,
+			"portfolioID": 1,
+			"category": "Programming Languages",
+			"seq": 2,
+			"name": "JavaScript"
+		},
+		{
+			"skillID": 3,
+			"portfolioID": 1,
+			"category": "Programming Languages",
+			"seq": 3,
+			"name": "HTML"
+		},
+		{
+			"skillID": 4,
+			"portfolioID": 1,
+			"category": "Programming Languages",
+			"seq": 4,
+			"name": "CSS"
+		},
+		{
+			"skillID": 5,
+			"portfolioID": 1,
+			"category": "Programming Languages",
+			"seq": 5,
+			"name": "PHP"
+		},
+		{
+			"skillID": 6,
+			"portfolioID": 1,
+			"category": "Programming Languages",
+			"seq": 6,
+			"name": "SQL"
+		},
+		{
+			"skillID": 7,
+			"portfolioID": 1,
+			"category": "Programming Languages",
+			"seq": 7,
+			"name": "XML"
+		},
+		{
+			"skillID": 8,
+			"portfolioID": 1,
+			"category": "Programming Languages",
+			"seq": 8,
+			"name": "XSLT"
+		},
+		{
+			"skillID": 9,
+			"portfolioID": 1,
+			"category": "Programming Languages",
+			"seq": 9,
+			"name": "Windows shell scripting"
+		},
+		
+		{
+			"skillID": 10,
+			"portfolioID": 1,
+			"category": "Web Technologies",
+			"seq": 10,
+			"name": "jQuery"
+		},
+		{
+			"skillID": 11,
+			"portfolioID": 1,
+			"category": "Web Technologies",
+			"seq": 11,
+			"name": "AngularJS"
+		},
+		{
+			"skillID": 12,
+			"portfolioID": 1,
+			"category": "Web Technologies",
+			"seq": 12,
+			"name": "Sass"
+		},
+		{
+			"skillID": 13,
+			"portfolioID": 1,
+			"category": "Web Technologies",
+			"seq": 13,
+			"name": "JSON"
+		},
+		{
+			"skillID": 14,
+			"portfolioID": 1,
+			"category": "Web Technologies",
+			"seq": 14,
+			"name": "RESTful APIs"
+		},
+		{
+			"skillID": 15,
+			"portfolioID": 1,
+			"category": "Web Technologies",
+			"seq": 15,
+			"name": "MySQL"
+		},
+		{
+			"skillID": 16,
+			"portfolioID": 1,
+			"category": "Web Technologies",
+			"seq": 16,
+			"name": "Microsoft SQL Server"
+		},
+		{
+			"skillID": 17,
+			"portfolioID": 1,
+			"category": "Web Technologies",
+			"seq": 17,
+			"name": "Twitter Bootstrap"
+		},
+		
+		{
+			"skillID": 18,
+			"portfolioID": 1,
+			"category": "Design",
+			"seq": 18,
+			"name": "Object-oriented design"
+		},
+		{
+			"skillID": 19,
+			"portfolioID": 1,
+			"category": "Design",
+			"seq": 19,
+			"name": "Relational Database Schema design"
+		},
+		{
+			"skillID": 20,
+			"portfolioID": 1,
+			"category": "Design",
+			"seq": 20,
+			"name": "Requirements Analysis"
+		},
+		{
+			"skillID": 21,
+			"portfolioID": 1,
+			"category": "Design",
+			"seq": 21,
+			"name": "UI/UX design"
+		},
+		{
+			"skillID": 22,
+			"portfolioID": 1,
+			"category": "Design",
+			"seq": 22,
+			"name": "APIs"
+		},
+		
+		{
+			"skillID": 23,
+			"portfolioID": 1,
+			"category": "Software",
+			"seq": 23,
+			"name": "Eclipse"
+		},
+		{
+			"skillID": 24,
+			"portfolioID": 1,
+			"category": "Software",
+			"seq": 24,
+			"name": "IntelliJ"
+		},
+		{
+			"skillID": 25,
+			"portfolioID": 1,
+			"category": "Software",
+			"seq": 25,
+			"name": "Git"
+		},
+		{
+			"skillID": 26,
+			"portfolioID": 1,
+			"category": "Software",
+			"seq": 26,
+			"name": "Subversion"
+		},
+		{
+			"skillID": 27,
+			"portfolioID": 1,
+			"category": "Software",
+			"seq": 27,
+			"name": "Apache"
+		},
+		{
+			"skillID": 28,
+			"portfolioID": 1,
+			"category": "Software",
+			"seq": 28,
+			"name": "Microsoft Office"
+		},
+		{
+			"skillID": 29,
+			"portfolioID": 1,
+			"category": "Software",
+			"seq": 29,
+			"name": "Visio"
+		},
+		{
+			"skillID": 30,
+			"portfolioID": 1,
+			"category": "Software",
+			"seq": 30,
+			"name": "JIRA"
+		},
+		{
+			"skillID": 31,
+			"portfolioID": 1,
+			"category": "Software",
+			"seq": 31,
+			"name": "Wiki (Confluence)"
+		},
+		
+		{
+			"skillID": 32,
+			"portfolioID": 1,
+			"category": "Accomplishments",
+			"seq": 32,
+			"name": "At request of c-level executive, reprised stakeholder presentation to be recorded as an example for others"
+		},
+		{
+			"skillID": 33,
+			"portfolioID": 1,
+			"category": "Accomplishments",
+			"seq": 33,
+			"name": "Architected and led a team of developers to rapidly develop a fully functional web / mobile application"
+		},
+		{
+			"skillID": 34,
+			"portfolioID": 1,
+			"category": "Accomplishments",
+			"seq": 34,
+			"name": "Obtained a Certificate of Business Analysis from the University of Minnesota in 2013; member IIBA MSP"
+		}
+	]
+}
