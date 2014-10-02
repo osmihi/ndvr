@@ -1,17 +1,18 @@
-# Premise
+## Premise
 A simple site / interface for displaying a portfolio of work, with few bells and whistles.
 
-# Goals
+## Goals
 * Rapid Development (~1 week)
-* Usable example demonstrating use of a js framework
+* Ability to show projects / experience online
+* Example demonstrating use of js framework, etc
 
-# User Roles
+## User Roles
 * Portfolio Owner
 * Hiring Manager / Recruiter
 * Hinata LLC
 
-# Stories
-## As a **Portfolio Owner**...
+## User Stories
+### As a **Portfolio Owner**...
 * I want to be able to list my projects and experience so that potential employers can see my accomplishments and ultimately hire me
 * I want projects and experience to be tied to skills so that employers can see that the skills I've claimed to have were used in specific instances
 * I want to be able to include or link to actual content of projects or experiences so that employers can see the actual content or result
@@ -26,7 +27,7 @@ A simple site / interface for displaying a portfolio of work, with few bells and
 * I want my portfolio to be optimized for search engines so that recruiters or hiring mgrs can find me when searching for candidates
 * I want to be able to easily share the portfolio so that others may view it
 
-## As a **Hiring Manager / Recruiter**...
+### As a **Hiring Manager / Recruiter**...
 * I want to view projects/experience by skill, so that I can evaluate experience skill by skill
 * I want to see projects/experience chronologically so I can get a sense of what skills are up to date
 * I want to be able to print the portfolio so that I can put it in a file or take it with me somewhere
@@ -39,6 +40,7 @@ A simple site / interface for displaying a portfolio of work, with few bells and
 * I want to search based on skills, experience, location, or other factors so that I can find many candidates who may fit the criteria I am searching for
 * I want to be automatically notified of new candidates who meet my criteria so that I don't need to manually re-run the search
 
-## As the **App Developer**...
+### As the **App Developer**...
+* I want to use the site so that I can display my portfolio online
 * I want many people to use the site so that this work and the company gain exposure
 * I want to earn enough money to sustain the server costs of the site so that this endeavor is sustainable
