@@ -173,3 +173,26 @@
 		}
 	]
 }
+
+/*
+Prior Written Notice - lead dev; agile
+eval checklists - dev
+Meetings Management project (Analyst)
+	wireframes
+	surveys/research
+	presentations
+	collabo
+	testing
+	
+Caseload tool - analyst
+Amend tool - dev
+Analyst for core Sped/LP issues
+implement wysiwyg in sped?
+document lock process
+Developer for a wide variety of Sped/LP bugs and enhancements
+	~100 issues
+	incl high priority / emergency stuff
+	incl schema changes, conversion scripts, etc.
+	incl fop, xml, xslt
+	incl refactor legacy code to improve maintainability
+*/
