@@ -3,7 +3,7 @@
 var app = angular.module('ndvr', ['ui.bootstrap', 'ngResource', 'ngRoute'])
     .config(function ($routeProvider) {
 
-        $routeProvider.when('/:portfolio',
+        $routeProvider.when('/:username',
             {
                 templateUrl: 'templates/portfolio.html',
                 controller: 'PortfolioController'
