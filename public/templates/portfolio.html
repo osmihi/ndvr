@@ -1,19 +1,23 @@
 <div class="portfolio">
-    <div class="portfolio-header">
 
-        <h1 class="full-name">{{portfolio.Profile.firstName}} {{portfolio.Profile.lastName}}</h1>
+    <div id="portfolio-header page-header">
+        <h1 class="full-name">
+            {{portfolio.Profile.firstName}} {{portfolio.Profile.lastName}}
 
-        <div class="sub-title">
-            <span>{{portfolio.Profile.title}}</span>
-            <span ng-show="portfolio.Profile.location && portfolio.Profile.title"> - </span>
-            <span>{{portfolio.Profile.location}}</span>
-        </div>
+            <small class="sub-title">
+                <span>{{portfolio.Profile.title}}</span>
+                <span ng-show="portfolio.Profile.location && portfolio.Profile.title"> - </span>
+                <span>{{portfolio.Profile.location}}</span>
+            </small>
+        </h1>
+
+
 
         <div class="statement" ng-show="portfolio.Profile.statement!=''">
             <em>{{portfolio.Profile.statement}}</em>
         </div>
 
-        <div class="contact-info">
+        <section id="contact-info">
             <h3>Contact Information</h3>
 
             <ul>
@@ -24,65 +28,71 @@
                     </span>
                 </li>
             </ul>
-        </div>
-
+        </section>
     </div>
 
-    <div class="skills">
-        <h2>Skills & Accomplishments</h2>
+    <div class="portfolio-body">
 
-        <ul>
-            <li ng-repeat="category in portfolio.Skill | uniqueByProperty:'category' | filter:'!accomplishments'">
-                <strong>{{category}}:</strong>
+        <div class="portfolio-projects">
+            <section id="projects">
+                <h2>Projects</h2>
+
+                <ul>
+                    <li ng-repeat="project in portfolio.Project | orderBy:'-seq'">
+                        <h4>{{project.name}}</h4>
+                        <p>{{project.description}}</p>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div class="portfolio-resume">
+            <section id="skills">
+                <h2>Skills & Accomplishments</h2>
+
+                <ul>
+                    <li ng-repeat="category in portfolio.Skill | uniqueByProperty:'category' | filter:'!accomplishments'">
+                        <strong>{{category}}:</strong>
                 <span ng-repeat="skill in portfolio.Skill | filter: {category: category} | orderBy:'seq'">
                     <span>{{skill.name}}<span ng-if="!$last">,</span>
                     </span>
                 </span>
-            </li>
-        </ul>
+                    </li>
+                </ul>
 
-        <ul>
-            <li ng-repeat="skill in portfolio.Skill | filter: {category:'accomplishments'} | orderBy:'seq'">
-                <span>{{skill.name}}</span>
-            </li>
-        </ul>
+                <ul>
+                    <li ng-repeat="skill in portfolio.Skill | filter: {category:'accomplishments'} | orderBy:'seq'">
+                        <span>{{skill.name}}</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+
+                <ul>
+                    <li ng-repeat="edu in portfolio.Education | dateToTime:'startDate' | dateToTime:'endDate' | orderBy:['-startDateTime','-endDateTime']">
+                        <span class="pull-right">{{edu.startDate | dateToDate | date: 'MMM y'}} - {{(edu.endDate || 'current') | dateToDate | date: 'MMM y'}}</span>
+                        <h4>{{edu.institutionName}} <small>{{edu.location}}</small></h4>
+                        <span>{{edu.degree}}</span>
+                        <span ng-show="edu.gpa">- GPA: {{edu.gpa}}</span>
+                        <span ng-show="edu.honors">- <em>Honors: {{edu.honors}}</em></span>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="work">
+                <h2>Experience</h2>
+
+                <ul>
+                    <li ng-repeat="work in portfolio.Work | dateToTime:'startDate' | dateToTime:'endDate' | orderBy:['-startDateTime', '-endDateTime']">
+                        <span class="pull-right">{{work.startDate | dateToDate | date: 'MMM y'}} - {{(work.endDate || 'current') | dateToDate | date: 'MMM y'}}</span>
+                        <h4>{{work.companyName}} <small>{{work.location}}</small></h4>
+                        <em>{{work.title}}</em>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
     </div>
-
-    <div class="education">
-        <h2>Education</h2>
-
-        <ul>
-            <li ng-repeat="edu in portfolio.Education | dateToTime:'startDate' | dateToTime:'endDate' | orderBy:['-startDateTime','-endDateTime']">
-                <span class="pull-right">{{edu.startDate | dateToDate | date: 'MMM y'}} - {{(edu.endDate || 'current') | dateToDate | date: 'MMM y'}}</span>
-                <h4>{{edu.institutionName}} <small>{{edu.location}}</small></h4>
-                <span>{{edu.degree}}</span>
-                <span ng-show="edu.gpa">- GPA: {{edu.gpa}}</span>
-                <span ng-show="edu.honors">- <em>Honors: {{edu.honors}}</em></span>
-            </li>
-        </ul>
-    </div>
-
-    <div class="work">
-        <h2>Experience</h2>
-
-        <ul>
-            <li ng-repeat="work in portfolio.Work | dateToTime:'startDate' | dateToTime:'endDate' | orderBy:['-startDateTime', '-endDateTime']">
-                <span class="pull-right">{{work.startDate | dateToDate | date: 'MMM y'}} - {{(work.endDate || 'current') | dateToDate | date: 'MMM y'}}</span>
-                <h4>{{work.companyName}} <small>{{work.location}}</small></h4>
-                <em>{{work.title}}</em>
-            </li>
-        </ul>
-    </div>
-
-    <div class="projects">
-        <h2>Projects</h2>
-
-        <ul>
-            <li ng-repeat="project in portfolio.Project | orderBy:'-seq'">
-                <h4>{{project.name}}</h4>
-                <p>{{project.description}}</p>
-            </li>
-        </ul>
-    </div>
-
 </div>

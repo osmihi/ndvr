@@ -1,53 +1,81 @@
 <!doctype html>
 
-<html lang="en" ng-app="ndvr">
+<html lang="en" ng-app="ndvr" ng-controller="HeadController">
 
-<head>
-	<meta charset="utf-8">
-	<base href="/"/>
-	<title>ndvr</title>
-	<!--<link rel="stylesheet" href="css/jquery-ui-1.10.4.custom.min.css"/>-->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/folio.css"/>
-	<!--<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">-->
-</head>
+    <head>
+        <meta charset="utf-8">
+        <base href="/"/>
+        <title>ndvr</title>
+        <!--<link rel="stylesheet" href="css/jquery-ui-1.10.4.custom.min.css"/>-->
+        <link rel="stylesheet" ng-href="{{theme.url || 'css/bootstrap.min.css'}}"/>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/bootstrap-social.css"/>
+        <link rel="stylesheet" href="css/ndvr.css"/>
+        <!--<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">-->
+    </head>
 
-<body>
+    <body>
+        <div class="container app-workspace">
 
-		<ng-view></ng-view>
+            <div class="site-header navbar" role="navigation">
+                <div class="navbar-inner">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <h4 class="ndvr-title">
+                                <a href="/">ndvr.co</a> <small> Share your resume and other endeavors online.</small>
+                            </h4>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="theme-select">
+                            <label for="theme">Theme</label>
+                            <select id="theme" ng-model="theme" ng-options="theme.name for theme in themes" ng-click="setTheme(theme)"></select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
-		<!-- Libraries -->
-		<script src="lib/jquery-1.10.2.min.js"></script>
-		<script src="lib/jquery-ui-1.10.4.custom.min.js"></script>
-		<script src="lib/bootstrap.min.js"></script>
+            <div ng-view></div>
+
+            <div class="footer">
+                <div class="container">
+                    <p class="text-muted">This web app was conceived and created by <a href="http://www.osmihi.com/profile">Othman Smihi</a> in October 2014.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Libraries -->
+        <script src="lib/jquery-1.10.2.min.js"></script>
+        <script src="lib/jquery-ui-1.10.4.custom.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script src="lib/underscore-min.js"></script>
 
-		<!-- Angular -->
-		<script src="lib/angular/angular.min.js"></script>
+        <!-- Angular -->
+        <script src="lib/angular/angular.min.js"></script>
 
-		<!-- Modules -->
-		<script src="lib/angular/angular-route.min.js"></script>
-		<script src="lib/angular/angular-resource.min.js"></script>
-		<script src="lib/angular/angular-sanitize.min.js"></script>
-		<script src="lib/angular/angular-animate.min.js"></script>
-		<script src="lib/ui-bootstrap-tpls-0.10.0.min.js"></script>
+        <!-- Modules -->
+        <script src="lib/angular/angular-route.min.js"></script>
+        <script src="lib/angular/angular-resource.min.js"></script>
+        <script src="lib/angular/angular-sanitize.min.js"></script>
+        <script src="lib/angular/angular-animate.min.js"></script>
+        <script src="lib/ui-bootstrap-tpls-0.10.0.min.js"></script>
 
-		<!-- App -->
-		<script src="js/app.js"></script>
-		
-		<!-- Filters -->
-		<script src="js/filters/filters.js"></script>
+        <!-- App -->
+        <script src="js/app.js"></script>
 
-		<!-- Directives -->
+        <!-- Filters -->
+        <script src="js/filters/filters.js"></script>
 
-		<!-- Services -->
+        <!-- Directives -->
+        <script src="js/directives/contactLink.js"></script>
+
+        <!-- Services -->
         <script src="js/services/DataService.js"></script>
 
-		<!-- Controllers -->
-		<script src="js/controllers/HomeController.js"></script>
-		<script src="js/controllers/PortfolioController.js"></script>
-
-	</div>
-</body>
+        <!-- Controllers -->
+        <script src="js/controllers/HeadController.js"></script>
+        <script src="js/controllers/HomeController.js"></script>
+        <script src="js/controllers/PortfolioController.js"></script>
+    </body>
 
 </html>
