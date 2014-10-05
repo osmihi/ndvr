@@ -53,7 +53,7 @@
 
         <ul>
             <li ng-repeat="edu in portfolio.Education | dateToTime:'startDate' | dateToTime:'endDate' | orderBy:['-startDateTime','-endDateTime']">
-                <span class="pull-right">{{edu.startDate}} - {{edu.endDate || 'current'}}</span>
+                <span class="pull-right">{{edu.startDate | dateToDate | date: 'MMM y'}} - {{(edu.endDate || 'current') | dateToDate | date: 'MMM y'}}</span>
                 <h4>{{edu.institutionName}} <small>{{edu.location}}</small></h4>
                 <span>{{edu.degree}}</span>
                 <span ng-show="edu.gpa">- GPA: {{edu.gpa}}</span>
@@ -67,7 +67,7 @@
 
         <ul>
             <li ng-repeat="work in portfolio.Work | dateToTime:'startDate' | dateToTime:'endDate' | orderBy:['-startDateTime', '-endDateTime']">
-                <span class="pull-right">{{work.startDate}} - {{work.endDate || 'current'}}</span>
+                <span class="pull-right">{{work.startDate | dateToDate | date: 'MMM y'}} - {{(work.endDate || 'current') | dateToDate | date: 'MMM y'}}</span>
                 <h4>{{work.companyName}} <small>{{work.location}}</small></h4>
                 <em>{{work.title}}</em>
             </li>

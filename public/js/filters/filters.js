@@ -20,6 +20,18 @@ app.filter('uniqueByProperty', function() {
  * Example: An array of objects like {date:'10/3/2014'} will be returned as an array of objects like {date:'10/3/2014', dateTime: 1412312400000}
  * This is useful for ordering by date when the date has been stored as a string
  */
+app.filter('dateToDate', function() {
+    return function(input) {
+        var asDate = new Date(input);
+        return  asDate == 'Invalid Date' ? input : asDate;
+    };
+});
+
+/**
+ * Filter which adds a property to each object in an array containing the milliseconds time value of a date object created from the content of the property with the given name.
+ * Example: An array of objects like {date:'10/3/2014'} will be returned as an array of objects like {date:'10/3/2014', dateTime: 1412312400000}
+ * This is useful for ordering by date when the date has been stored as a string
+ */
 app.filter('dateToTime', function() {
     return function(input, prop) {
         _.each(input, function(obj) {

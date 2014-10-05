@@ -11,6 +11,12 @@ The following is displayed on the Portfolio View:
 * Print portfolio
 * Log in (?)
 
+#### Fun stuff
+* Switch between portfolio vs. resume
+* Choose style (for fun)
+* Generate printable version
+* Expand/collapse each section
+
 #### User Information
 
 * Name
@@ -20,7 +26,15 @@ The following is displayed on the Portfolio View:
 * Personal statement
 * Social media / web links
 
-#### Portfolio information
+#### Portfolio
+  
+* Projects
+  * Show tagged skills
+  * Show tagged education
+  * Show tagged work
+  * Show link to added content
+
+#### Resume
 
 * Skills
   * Grouped by category
@@ -34,15 +48,8 @@ The following is displayed on the Portfolio View:
 * Work experience
   * Filter shown projects by work
 
-* Projects
-  * Show tagged skills
-  * Show tagged education
-  * Show tagged work
-  * Show link to added content
 
-### Other features
 
-* Generate printable version
-* Expand/collapse each section
+
   
   
