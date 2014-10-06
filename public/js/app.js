@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('ndvr', ['ui.bootstrap', 'ngResource', 'ngRoute'])
+var app = angular.module('ndvr', ['ui.bootstrap', 'ngResource', 'ngRoute', 'ngSanitize'])
     .config(function ($routeProvider) {
 
         $routeProvider.when('/:username',

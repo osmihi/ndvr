@@ -1,0 +1,7 @@
+<div class="contact-list">
+    <ul>
+        <li ng-repeat="contact in contacts | orderBy:'type'">
+            <contact-link contact="contact"></contact-link>
+        </li>
+    </ul>
+</div>

@@ -1,11 +1,12 @@
 {
-	"Project": [		
+	"Project": [
 		{
 			"projectID": 1,
 			"portfolioID": 1,
 			"seq": 1,
-			"name": "ID3 tag automation for radio archives",
-			"description": "",
+			"name": "ID3 tagger for radio network",
+			"blurb": "Windows shell script to automate ID3 tagging of MP3 archives",
+            "description": "I created a script and corresponding database to write proper id3 tags for a radio network's complete podcast archive",
 			"Example": [],
 			"Skill": []
 		},
@@ -13,8 +14,9 @@
 			"projectID": 2,
 			"portfolioID": 1,
 			"seq": 2,
-			"name": "Radio traffic automated auditing system",
-			"description": "",
+			"name": "Radio traffic audit system",
+			"blurb": "Log file parser used to verify that all scheduled advertisements played on air",
+            "description": "I created a script that parses through the logfile created by a radio station's traffic system, assembles a report outlining which specific files played, then e-mailing that report to interested parties.",
 			"Example": [],
 			"Skill": []
 		},
@@ -23,7 +25,8 @@
 			"portfolioID": 1,
 			"seq": 3,
 			"name": "Automated podcast publishing/archive system",
-			"description": "",
+			"blurb": "Windows shell script(s) to backup and publish recordings for a national radio network",
+            "description": "I created a fully automated system for a radio network to archive and publish podcasts of their 30-40 radio shows just minutes after they air.",
 			"Example": [],
 			"Skill": []
 		},
@@ -31,8 +34,9 @@
 			"projectID": 4,
 			"portfolioID": 1,
 			"seq": 4,
-			"name": "Drum machine / vocoder (Reaktor)",
-			"description": "",
+			"name": "Drum machine / vocoder",
+			"blurb": "Drum machine, beat sequencer with vocoder build in Native Instruments Reaktor",
+            "description": "<p>This is a drum machine with an integrated synthesizer/vocoder that I made using Native Instruments Reaktor 5. It can be a pretty fun useful tool for enhancing bland beats and creating rhythmic synth parts. Below is the original documentation. If you'd like to try it out (you'll need a copy of NI Reaktor 5), you can download the file <a href=\"/projects/reaktorDrum/Othman_reaktorDrum.zip\">here</a>:<blockquote><a href=\"/projects/reaktorDrum/Othman_reaktorDrum.zip\">Othman_reaktorDrum.zip</a></blockquote></p><h3>Othman's Drum/Synth/Sequencer Thing, Version 1.0</h3><p>This patch consists of a 16-step sequencer for triggering up to 8 drum samples, which may in turn independently trigger (or more accurately, gate) three individual oscillators. The oscillators each have their own filter, LFO, and “note chooser” among other things. An external input is also available for triggering the oscillators. Finally, there is a delay with feedback and lowpass filter. The patch is self-contained and does not make use of MIDI yet.</p><p>At the top left, there are 8 display boxes that show the filenames of the loaded samples. Double click on a box to open its properties then click on the little waveform picture to load samples. Each sample has a control for pan, level and pitch, and 4 send levels. There is a 9th box that is for the external input, which has a level indicator, gain, and highpass filter, and 3 sends.</p><p>Each column of knobs in the sends area corresponds to a destination for the sample. The first three columns are for oscillators one, two, and three, respectively, and the fourth goes to the delay. The external input doesn't have a send for the delay because it is only used as a trigger (gate). All sends are pre-fader.</p><p>The top right section of the panel is where the sequencer lives. It's pretty straight-forward, with each button representing a 16th note. Also, there's a row of indicator lights at the bottom of the sequencer grid that lights up during playback in time with the movement of the grid.</p><p>There are three oscillator sections at the bottom of the panel. They are all identical, except that oscillator one lacks the “slave” button. At the far left of the oscillator section, you will find the note chooser, where you can choose a chromatic note from the list. To the right of the note chooser is a knob which controls the octave of the chosen note, which is displayed beneath. Above this knob is a fader for the level of the oscillator. Above the fader is a selector to determine the waveshape for the oscillator: sine, sawtooth, pulse, and white noise. There's a knob to control width when pulse is selected.</p><p>To the right of the fader, there's a pan pot. To the right of the octave knob, you will find the filter for the oscillator. There are frequency and resonance knobs, and a selector to toggle between highpass, bandpass, and lowpass filters. To the right of these filter controls are the LFO parameters including rate, amount, and shape. Shapes include sine, triangle, square, and off (to deactivate the LFO). The LFO will automatically adjust the filter frequency above and below the point set on the frequency knob.</p><p>The remaining controls in the oscillator section include mode, release, groove, and ?Dly. The ?Dly knob, found in the top right corner of the box sends the oscillator's output to the delay processor. The Mode selector toggles between envelope mode and sustained mode. In envelope mode, the sum of audio sent to the oscillator (from the drums and/or external input) is used to modulate the amplitude of the oscillator, creating a triggered or gated effect. This is what you will want to use most of the time. In sustained mode, the oscillator just runs constantly. This isn't that useful, but can be fun to switch back and forth during playback. (note:  it seems like sustain mode isn't working for some reason right now. Oh well, you're not missing much.)</p><p>The release knob determines how long it takes for the oscillator's amplitude to recover from peaks when operating in envelope mode. Short release is good for fast, percussive sounds, and longer release is good for bass sounds, etc.</p><p>The “groove” controls are useful in creating different rhythms out of the triggered oscillators. The -/+ selector determines how many steps the triggered signal will be offset forward in time. The groove control, though simple, can help enliven an otherwise boring creation. The button beneath the groove selector will add an offset of 1 step (one 16th  note) only while it is held down. This is fun to mess with during playback.</p><p>You might notice that oscillators 2 and 3 also have a “slave” button, which is not present on oscillator 1. When engaged, the output of that oscillator is sent into oscillator one's filter, bypassing its own filter and pan, but keeping its pitch, shape, release, and groove setting. It will be processed by the osc 1's filter, and will also be affected by osc 1's groove setting.</p><p>The delay controls can be found on the right side of the panel, towards the bottom. This is pretty self-explanatory. You can select the delay time (measured in steps, or  16th notes) using the list. The top knob controls the level of the delay return. The middle knob controls how much of the delay's output is fed back into its input. The third knob adjusts the cutoff frequency of a lowpass filter applied to the output of the delay (pre-feedback).</p><p>Finally, the bottom right corner of the panel contains three very important controls. The “Run” button will start and stop playback. The adjacent knob is the master volume. Below these two is the tempo slider, which ranges from 60bpm to 200bpm.</p>",
 			"Example": [],
 			"Skill": []
 		},
@@ -40,8 +44,9 @@
 			"projectID": 5,
 			"portfolioID": 1,
 			"seq": 5,
-			"name": "Águila de esperanza website",
-			"description": "",
+			"name": "Águila de Esperanza website",
+			"blurb": "Informational web site with interactive survey and reporting",
+            "description": "This is a small site I built for a local business that connects American students with their Guatemalan counterparts. The site was needed with very little turnaround (several days), and had to include an online survey that visitors could take. I used PHP and a simple MySQL database to create the survey, and a few bits of Javascript to create some visuals for when the administrator wanted to view the results.",
 			"Example": [],
 			"Skill": []
 		},
@@ -50,7 +55,8 @@
 			"portfolioID": 1,
 			"seq": 6,
 			"name": "Home recording studio",
-			"description": "",
+			"blurb": "Recording studio in my home",
+            "description": "<p>These are some pictures from my project studio in Minneapolis. This is where most of the recording, mixing, and experimentation go on for the projects I'm involved with.</p><p>It's nothing to rival any big-time studio of course, but I believe that making good music has less to do with how much money you have and more with how much care and effort you put in.</p><p>That's not to say I haven't built up a nice selection of instruments, microphones, and recording gear. Take a minute to check things out, you might be surprised.</p>",
 			"Example": [],
 			"Skill": []
 		},
@@ -58,8 +64,9 @@
 			"projectID": 7,
 			"portfolioID": 1,
 			"seq": 7,
-			"name": "News clip and sound fx player for live radio use",
-			"description": "",
+			"name": "Sound clip player for radio producers",
+			"blurb": "News clip and sound effect player for use during live radio broadcasts",
+            "description": "<p>This is another instrument / ensemble I built in Native Instruments Reaktor 5. As a producer in talk radio, I often found that it was difficult to stay organized and react quickly when playing sound effects and audio clips during live broadcasts. Every fraction of a second is critical, and the system that I was given was costing us plenty. </p><p>I created this device to solve a number of problems. It provides instantaneous access to ten clips at a time, plus 3 short sound fx, and one-click access to additional pages of audio. Also, users are able to easily color-code any of their audio elements to aid in organization (i.e. what has been played so far, or type of content), as well as view a visual representation of the clip, helping to anticipate drops and or spikes in volume. Finally, users can cue up a clip to any point without putting out any sound on-air, or they can even seek through the clip live on-air quickly and easily, for maximum efficiency and smoothness during broadcasts.</p><p>If you'd like to use this tool for your own radio show or podcast, or just want to check it out, you'll need a copy of NI Reaktor 5, and you can download the file here:	<blockquote>	<a href=\"projects/reaktorClip/OthmanClipPlayer.ens\">OthmanClipPlayer.ens</a>	</blockquote>	</p>",
 			"Example": [],
 			"Skill": []
 		},
@@ -68,7 +75,8 @@
 			"portfolioID": 1,
 			"seq": 8,
 			"name": "Collaborative story-writing web app",
-			"description": "",
+			"blurb": "A web app to help creative teams collaborate when writing scripts or other stories",
+            "description": "<p>This is a site / web-based application I created that helps writers outline and write stories either on their own or in collaboration with other writers. This was my first real endeavor into creating a dynamic database-driven web application, and it is written in PHP and utilizes a MySQL database backend. Features include permissions, versioning, and a unique architecture for collaboratively writing and editing stories from the ground up.</p><h4>Story Site</h4><h5>Chronological System</h5><p>A story contains chapters, chapters contain scenes, and scenes contain pages. Any object that is located on a page is also located in a scene. That scene, in turn, is located within a chapter, which is located within a story. In this way, anything with a location is part of a given story. Within a given scene, each object in that scene has a unique page. This is how definite chronological order is achieved. Chapters, scenes, and page numbers may be changed at any time. This doesn't disrupt the ownership because things are linked via GlobalIDs, rather than the numbers of the scenes, etc. It does, however, allow us to rearrange scenes and chapters, pages, etc. Characters and Settings are not part of the chronological system. They can be drawn from and linked to certain other objects (lines and scenes, respectively) but are free of being chained to any particular story, chapter, scene, or page.</p><h5>Permissions System</h5><p>A story has an owner. That owner can add users to a list of those who may edit objects within the story. Also, the owner adds characters and settings to their respective lists: StChar - which characters may appear in the story, and StSett - which settings may be used in the story. So, as we mentioned earlier, Characters and Settings exist outside of a story (though they are sure to be used within stories). They are at the same point in the hierarchy as the story itself. This way, the same people and places are used in different stories very easily and consistently. Characters and Settings also have Editors. If a person has permission to edit a story, their editing rights do not carry over onto the character itself. In order to be able to edit a character or setting, they need to be an editor on that character or setting, NOT just on a story that it exists in.</p><h5>Versioning System</h5><p>When a change is made to an object, rather than literally making those changes to its database entry, what actually happens is that it is cloned, then the changes are made to that clone. After this is done, the previous version is assigned a new GlobalID, which is entered into the new version's PrevID field, and its Active field is set to 0. The Author and Created fields remain the same for all generations, but the Editor and Modified fields are reset to the user doing the changes when a new version is made. New versions will be made when changes are made to the Content field.</p><h5>Comments System</h5><p>Comments are attached to objects via GlobalID. If comments are to be displayed for a given object, a time/date-sorted list is displayed of comments that are tied to that object. Remember, the -current- version of an object has the all-time GlobalID, so old comments still appear.</p><h5>Tags System</h5><p>Tags are allowed on any of the objects except for comments (and users). This allows flexibility in the system for groups collaborating on a project to be able to organize the content and workflow in a more customized way. For instance, an editor could skim through a story and tag various objects as \"Good\", \"Terrible\", and \"Awful\". Then they could prioritize going through to fix all the \"Awful\" bits, then the \"Terrible\", and so on, in order. A search can be done under any of the normal criteria (i.e. story, text, etc) but adding a search for the tags field allows a nicer way to enable specific searching if desired. Story owners have an option to hide tags from all but editors.</p>",
 			"Example": [],
 			"Skill": []
 		},
@@ -77,7 +85,8 @@
 			"portfolioID": 1,
 			"seq": 9,
 			"name": "Electronic music remix / performance instrument",
-			"description": "",
+			"blurb": "Sophisticated multi-purpose digital audio sample/loop manipulation tool",
+            "description": "<p>This project is a digital musical instrument I created from scratch using Native Instruments Reaktor 5 software. The basic idea behind it is to allow a unique, flexible, and very musical way to manipulate various melodic and rhythmic samples or loops in a real-time performance. Essentially, users of this instrument can load in some samples or loops, either those of a related set (i.e. the various beats and samples of an existing song) or a hodge podge of unrelated materials, and easily combine them in any number of ways to create a remix on the fly.</p><p>The instrument features eight sampler modules, four different sequencers, several unique effects, two inline delay modules, three separate stereo audio busses, and a handful of other goodies.</p><p>Users can \"chop\" and rearrange samples via any of the four sequencers using two distinct types of interface via the sequencing page. These templates are then applied to any or all of the samples/loops that have been loaded into the instrument at the user's will, and can be changed on the fly. </p><p>Each of the samples can be assigned to either the A, B, or C audio busses, allowing quick and easy \"mute group\"-like functionality. Each bus routes through its own independent repeater module (though they can be chained together), which is constantly recording and playing back a user-set amount of musical time and can be triggered to replace the audio stream at any moment, truncated, repeated itself, and even played back in reverse. Any of the included effects modules have switches for engaging bus A and/or B, while bus C is the \"isolation\" bus that does not go to any of the effects modules or repeaters.</p><p>The effects included in the instrument provide unique twists on classic effects. The dynamic distortion is set by the user to adjust its frequency range and level of distortion based on the amplitude of the incoming signal, producing interesting results particularly on percussive elements. The cutter provides a horizontal grid where the user can toggle a series of time segments on or off, then apply these to the amplitude envelope of a given bus in various ways. The CutnPaste effect is another type of inline delay that is able to repeatedly replace a portion of a bus' audio signal with another portion of it, similar to the inline delay on some high end DJ mixers, or the \"Beat Repeat\" effect in Ableton Live. </p><p>Finally, the Table Filter effect shows a grid which the user can either draw in with the mouse, or manually set via a knob on the screen or MIDI controller. The curve drawn in this grid is then repeated over a user-chosen interval and then applied to the filter envelope of an audio bus, resulting in a looped filter effect. Of course, the most fun is had when combining all these different effects together, and in conjunction with the various sequencer functions.</p><p>Of course, it's always much better to try things first hand than to simply hear about it, so if you'd like to try it out for yourself (you'll need a copy of NI Reaktor 5), you can download the ensemble & some sample loops here:<blockquote><a href=\"http://www.osmihi.com/projects/reaktorHouse/reaktorHouse.zip\">reaktorHouse.zip</a></blockquote></p>",
 			"Example": [],
 			"Skill": []
 		},
@@ -86,7 +95,8 @@
 			"portfolioID": 1,
 			"seq": 10,
 			"name": "Job search helper web app",
-			"description": "",
+			"blurb": "A simple web app that I used to stay organized during a job search",
+            "description": "<p>This is a web application that I made in my spare time to help me stay organized while searching for jobs. The problem I was having was that, between the different college job boards, craigslist, various employment websites, individual companies, and traditional print ads, it was becoming impossible to keep track of what listings I'd liked and to stay focused.</p><p>So I created a database that would house the various relevant information for a given job listing, i.e. job title, company, URL, contact info, and any notes I had. I also made sure I could categorize the jobs and assign a priority, or level of interest to each. As soon as some or all of this information is entered, it is viewable in a chart alongside any other listings I've entered into the system.</p><p>From this chart, I can update the information, sort by category or by priority, and with one click mark which ones I've applied to and/or heard back from. This allows me to glance at one screen and get an idea of what progress I've made, and also helps me make sure I'm not letting an opportunity I might be interested in slip by.</p><p>This has proven a more reliable strategy than the handwritten notes and e-mails to myself that I had been using before.</p><p>Another issue I came across was that, since I wasn't always doing my searching from the same computer, I didn't consistently have access to my set of job-search bookmarks/favorites. This problem inspired me to add another section to the application where I could simply store and organize my various weblinks, enabling me to have convenient access from anywhere. Also, rather than simply creating a list of links like most browsers do, I thought it might be more useful in this specific situation to have a hierarchy of links. This way I could add a link for a general site like craigslist, for instance, and then place links to its specific sections as children beneath it. I've found this works well for saving specific search terms on sites, so I can just check back at the various URLs I've saved without having to reconstruct each search every time I'm poking around for new listings.</p><p>I later incorporated another feature to help make things more efficient. Despite the generally clean workflow of the site, it was starting to feel a little cumbersome to enter information for each listing when adding more than a couple listings at a time. The solution that I found was to find a way to simply drag and drop the URL of the listing into a field, and then as soon as I click \"Submit\" to let the app take care of the rest. Given a url, the app will retrieve the information contained in the title tag of the page and save that into the record. A subtle improvement, yes, but cutting out some of that extra hassle enables one to focus more on the actual task at hand.</p><p>This web application provides a simple drag-and-drop interface to centralize all job search prospects, progress, and resources in one place with minimal effort. Most importantly, however, I was able to learn some new tricks and techniques while making my job hunt a little less routine.</p>",
 			"Example": [],
 			"Skill": []
 		},
@@ -94,8 +104,9 @@
 			"projectID": 11,
 			"portfolioID": 1,
 			"seq": 11,
-			"name": "osmihi.com website / content management system",
-			"description": "",
+			"name": "osmihi.com website",
+			"blurb": "Personal website with content management system",
+            "description": "<p>One project of mine that I can share with you is <em>my old website</em>. Aside from all the (hopefully informative and entertaining) content you find here, I also designed & built the site and its underlying infrastructure. </p><p>Rather than making a bunch of static HTML pages that need to be hand edited whenever changes are to be made, I decided to create a lean, custom, highly specialized content management system (CMS) specifically for my purposes on this site. If I want to add a new song or music category, a new blog post or piece of writing, or a project for the 'projects' page, all I need to do is go into my super-secret administrative page and add it there via a quick and easy web-based interface. From there, the rest is taken care of automatically.</p><p>Aside from making it easy to update, some other nice features are present that can't be done with a traditional, static site. For one, I can tag any of my blogs, pieces of writing, or project entries with any term I like and do a simple search for that term later and pull up any and all entries that match it. Also, I can add any number of different pictures to a project entry and its page will be formatted accordingly. And just for fun, I've made it so each time you visit the project page a new random photo will be chosen from the set of associated pictures for each project and displayed beside it. Finally, the music page makes use of AJAX techniques to dynamically load content from the server in response to user input without reloading the page altogether.</p><p>The custom CMS for osmihi.com is written in PHP and relies upon a MySQL database to store the site's content. Furthermore, a lot of the little bells and whistles (including the AJAX pieces) make use of Javascript. Because I have designed it specifically to do exactly what I need it to (no more and no less), it is relatively lightweight and easy to maintain. At first I considered using a larger, already established CMS like Drupal or Wordpress, but while the flexibility and massive array of features is always attractive, I ultimately decided to go with a smaller and more specialized solution. </p><p>Besides, when it comes to \"selling\" myself, I'd much rather <em>show</em> than tell!</p><p>If you have any questions about how this stuff works, or are interested in having something similar made for you, please go ahead and <a href=\"/?p=contact\">contact me</a>! I'd love to hear from you.</p>",
 			"Example": [],
 			"Skill": []
 		},
@@ -103,8 +114,9 @@
 			"projectID": 12,
 			"portfolioID": 1,
 			"seq": 12,
-			"name": "Hinata idea2",
-			"description": "",
+			"name": "Hinata notes app",
+			"blurb": "An all-purpose list-making / note-taking web application",
+            "description": "<p>This is my favorite application I've built for Hinata LLC. It functions like a virtual notebook, allowing you to store, edit, organize and display notes and ideas flexibly and naturally. </p><p>I use this application just about every day, and it's been a great tool for keeping my thoughts and plans organized for the various projects and creative endeavors I'm working on at any given time.  Soon I'll post some more details explaining further how this app works. (<em>note: if you log in to the demo account given below, there is some explanation in the site itself</em>)</p><p>Since this project is still in development, I'm constantly adding features, breaking things and re-fixing them. And, of course, there's no type of documentation either. But for the brave and curious, you're welcome to make an account and play with the app, which can currently be found at<blockquote><a href=\"http://idea2.osmihi.com\" target=\"_blank\">idea2.osmihi.com</a></blockquote>From there, you can login using username \"demo\" and password \"test\" to take a quick look around, or make your own account and start using the site!</p>",
 			"Example": [],
 			"Skill": []
 		},
@@ -113,7 +125,8 @@
 			"portfolioID": 1,
 			"seq": 13,
 			"name": "Android RSS Feed Reader / Scraper",
-			"description": "",
+			"blurb": "Android application utilizing web search API to scrape for RSS feeds on a given topic",
+            "description": "A friend and I wanted to get into Android development, so we started by writing a simple app that deals with RSS and Atom feeds. A user enters some search criteria and the app plugs into the Blekko web search API to find some results. The app filters down those results and then scans for RSS or Atom feeds on those pages and verifies that the documents are indeed valid feeds. <br /><br />This was a great introduction to programming a basic Android app. We had a lot of fun working with the web search API, manipulating the XML/HTML content of web pages and RSS feeds, and refactoring our code repeatedly.<br /><br />You can browse the source code at <a href=\"https://github.com/osmihi\" target=\"_blank\">GitHub</a>.",
 			"Example": [],
 			"Skill": []
 		},
@@ -122,7 +135,8 @@
 			"portfolioID": 1,
 			"seq": 14,
 			"name": "Nintendo-style RPG Battle Game",
-			"description": "",
+			"blurb": "Original battle simulation role playing game written in Java",
+            "description": "<p>This is a project I did while taking the Elementary Data Structures course in my computer science degree program. We were asked to make a simulation of some kind and, being a big fan of old-school Nintendo role playing games, I thought it would be a good opportunity to see if I could create my own game in that style.</p><p>The program was written in the Java language, using Swing for the GUI components. Originally a desktop application, I adapted it to run as an applet after the fact. The <a href=\"https://github.com/osmihi/com.osmihi.battle\" target=\"_blank\">source code</a> for the desktop version is up on <a href=\"https://github.com/osmihi/com.osmihi.battle\" target=\"_blank\">GitHub</a> and can be found <a href=\"https://github.com/osmihi/com.osmihi.battle\" target=\"_blank\">here</a>.</p><p>I created all the artwork for the game also. Not that I expect anyone to be impressed by that, just thought it was worth mentioning :)</p><p><strong>You can play the game through your web browser via the applet on <a href=\"http://www.osmihi.com/battle\" target=\"_blank\">this page:</a></strong></p><p><a href=\"http://www.osmihi.com/battle\" target=\"_blank\">http://www.osmihi.com/battle</a></p><p>(Just a heads up, it can take about 5 seconds to load the battle screen, so please be patient.)</p><div style=\"border-bottom: 1pt solid black; width: 100%;\"></div><p><em>note: the Java applet will require Java 6 or newer to be installed. Chances are you already have it on your computer, but if not, you can download the latest version of Java <a href=\"http://www.java.com/getjava\" target=\"_blank\">here</a>:</em></p><p><a href=\"http://www.java.com/getjava\" target=\"_blank\">Get Java</a></p>",
 			"Example": [],
 			"Skill": []
 		},
@@ -131,7 +145,8 @@
 			"portfolioID": 1,
 			"seq": 15,
 			"name": "Easter Egg Delivery Simulation (Operating Systems)",
-			"description": "",
+			"blurb": "",
+            "description": "",
 			"Example": [],
 			"Skill": []
 		},
@@ -140,7 +155,8 @@
 			"portfolioID": 1,
 			"seq": 16,
 			"name": "OrdrUp: Restaurant Management Web / Mobile App",
-			"description": "",
+			"blurb": "Web application and Android app for management of orders, food preparation, and bills in restaurants",
+            "description": "<p>This is the group capstone project I did during my Computer Science education. Here's the blurb:</p><blockquote>OrDrUp is a fully integrated restaurant management system that seamlessly coordinates table management, order taking, and food preparation so that the owners and staff can concentrate on what’s most important: their customers.</blockquote><p>OrDrUp consists of a web app and an Android app, both of which are supported by a RESTful API. The only library that we really used was jQuery, so this was an excellent chance to show our full understanding of the architecture from top to bottom.</p><p>My contributions to this project include:</p><ul><li>Architecture design</li><li>Design and full implementation of RESTful API (PHP)</li><li>Implementation of all other server-side functionality (PHP)</li><li>Front end web development (Javascript / jQuery)</li><li>Requirements analysis</li><li>Logo & graphic design (such as it is)</li></ul><h5>Links</h5><ul><li>View the code on <a href=\"https://github.com/osmihi/Capstone\">GitHub</a> - \"Capstone\" repo</li><li>Visit the <a href=\"http://www.ordrupapp.com/\">main site</a> (log in as user \"bootsy.collins\" with password \"password\"</li><li><a href=\"http://www.ordrupapp.com/reset.php\">Reset</a> the database to baseline</li></ul>",
 			"Example": [],
 			"Skill": []
 		},
@@ -149,7 +165,8 @@
 			"portfolioID": 1,
 			"seq": 17,
 			"name": "Wedding RSVP Site / App",
-			"description": "",
+			"blurb": "Web application for wedding guests with its own API and interactive RSVP form",
+            "description": "<p>I built this website / mini-app in a few days in order to facilitate guests RSVP'ing to my wedding. I designed the site to have elements of responsive design, so that it could adapt to both a standard browser and mobile devices. I utilized the twitter bootstrap library to help in this respect.</p><p>The RSVP form is structured in a way that loads progressively as users provide more information. This is accomplished via a series of ajax calls using jQuery. The form itself is written with HTML5 in order to leverage some of its built-in form features, such as required fields and so on.</p><p>The code is viewable on <a href=\"https://github.com/osmihi\">GitHub</a> and you can still visit the site at <a href=\"http://www.chrisandothman.com/\">chrisandothman.com</a>.</p>",
 			"Example": [],
 			"Skill": []
 		},
@@ -158,7 +175,8 @@
 			"portfolioID": 1,
 			"seq": 18,
 			"name": "ReadID3 - MP3 Tag Reader",
-			"description": "",
+			"blurb": "",
+            "description": "",
 			"Example": [],
 			"Skill": []
 		},
@@ -167,7 +185,8 @@
 			"portfolioID": 1,
 			"seq": 19,
 			"name": "djCalculator Web App",
-			"description": "",
+			"blurb": "",
+            "description": "",
 			"Example": [],
 			"Skill": []
 		}

@@ -46,7 +46,12 @@ app.factory('DataService', function($http) {
                 });
 
                 getList('Work', portfolio.Work, function(works) {
-                    portfolio.Work = works;
+                    _.each(works, function(work) {
+                       getList('Task', work.Task, function(tasks) {
+                           work.Task = tasks;
+                           portfolio.Work = works;
+                       })
+                    });
                 });
 
                 getList('Education', portfolio.Education, function(educations) {

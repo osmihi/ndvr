@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-sm-10">
+        <h4><button class="btn btn-xs" ng-click="projectCollapsed = !projectCollapsed">{{projectCollapsed ? 'Show' : 'Hide'}}</button> {{project.name}}</h4>
+        <p>
+            <em>{{project.blurb}}</em>
+        </p>
+
+        <div collapse="projectCollapsed">
+            <p ng-bind-html="project.description"></p>
+        </div>
+
+        <div>
+
+        </div>
+    </div>
+</div>

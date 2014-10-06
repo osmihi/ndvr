@@ -1,6 +1,5 @@
 .site-header {
     padding-right:1.5em;
-    padding-left:1em;
 }
 
 .theme-select {
@@ -10,5 +9,28 @@
 }
 
 .footer {
-    padding:1em 0 0.5em;
+    margin-top:1.5em;
+    padding:1em 0;
+}
+
+.top-buffer {
+    margin-top:20px;
+}
+
+/* For contactLinks */
+.contact-list ul {
+    padding-left: 0;
+    line-height:200%;
+}
+
+.contact-list li {
+    display:inline;
+    list-style-type: none;
+    padding-right:20px;
+}
+
+.contact-list .contact-icon {
+    font-size: larger;
+    width: 30px;
+    text-align: center;
 }
