@@ -17,6 +17,11 @@
     margin-top:20px;
 }
 
+/* For projectBlock */
+.project-collapse {
+    font-size:12pt;
+}
+
 /* For contactLinks */
 .contact-list ul {
     padding-left: 0;
