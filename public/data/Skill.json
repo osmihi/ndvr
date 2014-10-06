@@ -163,6 +163,13 @@
 			"seq": 210,
 			"name": "UI/UX design"
 		},
+        {
+            "skillID": 40,
+            "portfolioID": 1,
+            "category": "Design",
+            "seq": 215,
+            "name": "Wireframes"
+        },
 		{
 			"skillID": 22,
 			"portfolioID": 1,
@@ -234,6 +241,27 @@
 			"seq": 310,
 			"name": "Wiki (Confluence)"
 		},
+        {
+            "skillID": 41,
+            "portfolioID": 1,
+            "category": "Software",
+            "seq": 315,
+            "name": "Gliffy"
+        },
+        {
+            "skillID": 42,
+            "portfolioID": 1,
+            "category": "Software",
+            "seq": 320,
+            "name": "Balsamiq"
+        },
+        {
+            "skillID": 43,
+            "portfolioID": 1,
+            "category": "Software",
+            "seq": 320,
+            "name": "GIMP (Photoshop)"
+        },
 		
 		{
 			"skillID": 32,

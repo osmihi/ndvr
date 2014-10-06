@@ -12,6 +12,10 @@
             <em>{{project.blurb}}</em>
         </p>
 
+        <p>
+            <span ng-repeat="skill in project.Skill track by $index" class="skill-label label label-primary">{{skill.name}}</span>
+        </p>
+
         <div collapse="projectCollapsed">
             <p ng-bind-html="project.description"></p>
         </div>

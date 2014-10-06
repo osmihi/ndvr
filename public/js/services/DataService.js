@@ -42,7 +42,12 @@ app.factory('DataService', function($http) {
                 });
 
                 getList('Project', portfolio.Project, function(projects) {
-                    portfolio.Project = projects;
+                    _.each(projects, function(project) {
+                        getList('Skill', project.Skill, function(skills) {
+                            project.Skill = skills;
+                            portfolio.Project = projects;
+                        });
+                    });
                 });
 
                 getList('Work', portfolio.Work, function(works) {

@@ -22,6 +22,11 @@
     font-size:12pt;
 }
 
+.skill-label {
+    display:inline-block;
+    margin-right:0.5em;
+}
+
 /* For contactLinks */
 .contact-list ul {
     padding-left: 0;
