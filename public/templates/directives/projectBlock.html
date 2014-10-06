@@ -3,6 +3,9 @@
         <h4>
             <span ng-click="projectCollapsed = !projectCollapsed" ng-class="{'project-collapse':true, glyphicon:true, 'glyphicon-chevron-down':!projectCollapsed, 'glyphicon-chevron-right':projectCollapsed}"></span>
             {{project.name}}
+            <small ng-if="project.active == 1">
+                <span class="label label-success">Active</span>
+            </small>
         </h4>
 
         <p>

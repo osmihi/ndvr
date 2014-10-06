@@ -1,14 +1,5 @@
-Skill
-============================================
-/*
-add:
-	underscore
-	require
-*/
-
 Project
 ============================================
-/*
 Prior Written Notice - lead dev; agile
 eval checklists - dev
 Meetings Management project (Analyst)
@@ -18,8 +9,9 @@ Meetings Management project (Analyst)
 	collabo
 	testing
 
-Caseload tool - analyst
 Amend tool - dev
+Caseload tool - analyst
+
 Analyst for core Sped/LP issues
 implement wysiwyg in sped?
 document lock process
@@ -29,4 +21,3 @@ Developer for a wide variety of Sped/LP bugs and enhancements
 	incl schema changes, conversion scripts, etc.
 	incl fop, xml, xslt
 	incl refactor legacy code to improve maintainability
-*/
