@@ -1,9 +1,23 @@
-Skill
-==========
-wireframes
-gliffy
-balsamiq
+TODO
+===========================================
+Descriptions
+Examples (files)
+Pictures
 
+carousel
+redirect
+
+Skill
+===========================================
+agile
+html5
+research
+competitive analysis
+product / solution design
+diagrams
+presentation
+Apache FO
+leadership
 
 Project
 ============================================

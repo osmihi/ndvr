@@ -149,7 +149,7 @@
             "seq": 137,
             "active": 0,
             "name": "Analysis for enhancements, bugs, and maintenance of enterprise web app",
-            "blurb": "Business analyis, requirements elicitation and UI/UX design of features",
+            "blurb": "Business analysis, requirements elicitation and UI/UX design of features",
             "description": "",
             "Example": [],
             "Skill": [20,21,40,22,25,26,28,29,30,31,41,42,43,19,18,6,7,16]
@@ -172,7 +172,7 @@
             "active": 0,
             "name": "School counselor caseload dashboard and management tool",
             "blurb": "Product enhancement to aggregate student data and display in context",
-            "description": "",
+            "description": "<p>On this project, I engaged with users to elicit requirements, designed a solution and validated & tested the results. The analysis that I did for this project has proven to have lasting value for the company and has been used as an example for others.</p>",
             "Example": [],
             "Skill": [20,21,40,22,23,28,30,31,41,42,2,6,7,10,16]
         },
@@ -194,7 +194,7 @@
             "active": 1,
             "name": "General development of enterprise web app",
             "blurb": "Software development of new features, bug fixes, and maintenance to student information system web application",
-            "description": "",
+            "description": "<p>The general workload of a developer on a large, complex and aging web application involves working with a large amount of legacy code and data. Bug fixes and maintenance span the range from urgent, high-priority issues to routine maintenance tasks. This work also includes implementing enhancements to existing features, data conversion, schema and object design, and long-term planning.</p><p>As a Software Engineer in this position, I completed over 100 issues, working with a variety of technologies and striving to improve code quality not only in terms of functionality but also readability, testability, and overall maintainability.</p>",
             "Example": [],
             "Skill": [1,2,3,4,6,7,8,10,11,35,12,13,16,17,36,18,19,20,21,40,22,23,24,25,26,30,31]
         },
@@ -205,7 +205,7 @@
             "active": 0,
             "name": "Document revision tracking and management solution",
             "blurb": "Enhancement to document editing framework to enable detailed tracking of amendments",
-            "description": "",
+            "description": "<p>My contributions to this project include:<ul><li>Front end development</li><li>Back end development</li><li>Solution concept</li></ul></p><p>On this project, I implemented a modification to an existing workflow that tracks users' modifications to specific areas of interactive documents in a web application.</p><p>One of the challenges of this project was that it involved using jQuery to build on top of an existing established UI. This provided an opportunity to see both the potential and the pitfalls of extensive DOM manipulation.</p>",
             "Example": [],
             "Skill": [1,2,3,4,6,7,8,10,16,18,19,20,21,22,23,26,30,31]
         },
@@ -221,9 +221,20 @@
             "Skill": [2,3,4,5,6,10,13,14,15,18,19,20,21,40,22,23,25,27,28,29]
         },
         {
-            "projectID": 17,
+            "projectID": 27,
             "portfolioID": 1,
             "seq": 170,
+            "active": 0,
+            "name": "Meetings management integrated web application",
+            "blurb": "Integrated web application for scheduling, managing, and reporting on meetings in schools",
+            "description": "<p>My contributions to this product include:<ul><li>Functional requirements</li><li>UI design</li><li>Collaborator on wireframes</li><li>Presentations (CEO, end-users, internal stakeholders)</li><li>Research and engagement with end users</li><li>Practice agile methodologies</li><li>Domain research</li><li>Competitive analysis</li><li>Diagramming</li><li>Schema design</li><li>Testing and validation</li></ul></p><p>This was a large project on which I served as the Analyst. I consider it a great success because the development team and I were able to turn what was originally a loosely defined (and perhaps ill-fated) project into a highly successful endeavor that has been used as an example in many ways for other subsequent projects.</p><p>On this project, in addition to the requirements, UI design, and other typical activities, I was able to get some great experience (and very positive results) engaging with a wide variety of stakeholders, both internal and external. This includes a presentation to the CEO, an internal stakeholder presentation which was so well-received that another chief executive requested that I give it a second time so that it could be recorded and used as an example in the company.</p><p>Understanding a product's users is always key when trying to build effective and profitable software, and on this project I had the opportunity to conduct a wide variety of research including surveys, interviews, usability testing, external issue testings</p><p>The resulting product was a success and has thus far been used heavily by the customers who received it. Meanwhile, expansion of the tool is planned in multiple areas.</p>",
+            "Example": [],
+            "Skill": [20,21,25,28,30,31,40,41,42,43,4,6,7,8,10,13,14,18,19]
+        },
+        {
+            "projectID": 17,
+            "portfolioID": 1,
+            "seq": 175,
             "active": 0,
             "name": "ChrisAndOthman.com",
             "blurb": "Web application for wedding guest registration with its own API and interactive RSVP form",
@@ -232,24 +243,24 @@
             "Skill": [2,3,4,5,6,10,13,14,15,17,18,19,20,21,22,23,25,27,28]
         },
         {
-            "projectID": 27,
+            "projectID": 31,
             "portfolioID": 1,
-            "seq": 175,
+            "seq": 177,
             "active": 0,
-            "name": "Meetings management integrated web application",
-            "blurb": "Integrated web application for scheduling, managing, and reporting on meetings in schools",
-            "description": "",
+            "name": "Meeting scheduler",
+            "blurb": "Research, analysis and product design for a set of tools to facilitate complex scheduling scenarios",
+            "description": "<p>My contributions to this project include:<ul><li>Business Analysis</li><li>Solution concept</li><li>Competitive analysis</li><li>Requirements gathering</li><li>Diagramming</li><li>Presentation</li></ul></p><p>For this project, I researched and designed a set of tools to fulfill some of the future goals of Product Management.</p><p>The work involved extensive research and analysis into existing solutions, as well as general requirements gathering in order to come up with a full and complete set of user stories. From these stories, I designed the product to fulfill their needs while leveraging existing functionality as well as positioning the overall product for other future enhancements.</p>",
             "Example": [],
-            "Skill": [20,21,25,28,30,31,40,41,42,43,4,6,7,8,10,13,14,18,19]
+            "Skill": [20,21,28,29,31,41,43]
         },
         {
             "projectID": 28,
             "portfolioID": 1,
-            "seq": 177,
+            "seq": 180,
             "active": 1,
             "name": "Checklist document editing and reproduction solution",
             "blurb": "Implementation of a practical, maintainable solution for creating XML definitions of documents and generating user interfaces and printed documents",
-            "description": "",
+            "description": "<p>My contributions to this project include:<ul><li>Front end development</li><li>Back end development</li><li>Solution concept</li><li>Schema design</li></ul></p><p>This project involved implementing a solution within an existing application that would allow a variety of state-issued forms with widely varying content to be stored and reproduced, with the contents of individual instances modifiable by users.</p><p>Traditionally, within this application developers code a set of UI forms to input data, then code a similar set of forms to support the generation of a PDF printout of the completed form. What was different about the solution that I implemented was that each document is defined in XML, and then a transform is applied on either the front- or back-end in order to generate the UI code or XSL-FO (PDF-generating) code, respectively.</p><p>The project was well-received for its flexibility and ease of maintenance, and was used as the template for at least one other future project in the department.</p>",
             "Example": [],
             "Skill": [1,2,3,4,6,7,8,10,16,18,19,20,21,22,24,25,30,31]
         },
@@ -260,7 +271,7 @@
             "active": 0,
             "name": "ReadID3 Javascript library",
             "blurb": "Javascript library used to read information from ID3 tags contained in MP3 files",
-            "description": "",
+            "description": "<p>My contributions to this project include:<ul><li>Understanding ID3 standard (multiple versions)</li><li>Converting Java code to Javascript</li><li>Reading and interpreting binary data from files</li></ul></p><p>While working on djCalculator.com, I wanted to implement a feature that would allow users to import the metadata from the ID3 tags in MP3 files. While there are many implementation of ID3 tag readers available, they are most often in server-side languages. Given that djCalculator is a JavaScript-based web app, it made much more sense to create a library capable of perform this function that is native to the browser.</p><p>Developing this code involved researching and understanding the ID3 standard (multiple versions), reading binary data from files, and converting Java code to Javascript.</p><p>Epilogue: After discovering another, more robust Javascript library that accomplishes the same task, I set aside this project and instead implemented the other library in the djCalculator application. I did, however, modify the other library to improve its error handling.</p>",
             "Example": [],
             "Skill": [1,2,13,25]
         },
@@ -271,7 +282,7 @@
             "active": 1,
             "name": "djCalculator.com",
             "blurb": "Web application for DJs built using AngularJS with a RESTful API back-end written in PHP",
-            "description": "",
+            "description": "<p>My contributions to this project include:<ul><li>Front end development</li><li>Back end development</li><li>RESTful API Design and Implementation</li><li>Product concept</li><li>Architecture</li><li>UI Design</li></ul></p><p>djCalculator.com is a web application that I created using AngularJS (front end) and PHP (RESTful API back end). The app allows users to manage a library of music and plan DJ sets by matching the relative pitch of subsequent tracks.</p><p>Some notable features currently offered by the app include drag and drop sorting and management of tracks, import of track metadata from MP3 files directly in the browser via JavaScript, instantaneous search/filtering of track lists, and automated \"suggestion\" of tracks, based on relative pitch and tempo.</p><p>This project is still under development, and the code is available on <a target=\"_blank\" href=\"https://github.com/osmihi/djCalc\">GitHub</a>. Please check it out if you're interested.</p>",
             "Example": [],
             "Skill": [2,3,4,5,6,10,11,13,14,15,17,18,19,20,21,22,23,24,25,27,29]
         },
@@ -280,9 +291,9 @@
             "portfolioID": 1,
             "seq": 196,
             "active": 1,
-            "name": "Learner Planning Document Application",
+            "name": "Learner Planning Document Editor Application",
             "blurb": "Modular application for viewing and editing complex regulated Special Education documents, with AngularJS front-end",
-            "description": "",
+            "description": "<p>My contributions to this project include:<ul><li>Lead developer on project</li><li>Front end development</li><li>Back end development</li><li>Initial research and solution design</li><li>Coordination of agile planning sessions</li><li>Schema design</li><li>Collaborator on UI design</li></ul></p><p>This was a large project to introduce a new app module built with AngularJS into an existing web application. Technologies used on this project besides Angular include: Underscore, RequireJS, Sass, jQuery, Java, SQL, XML, XSLT, JSON, HTML, and CSS.</p><p>During the early stages of this project, I did research and analysis to come up with the overall solution to the problem of how to capture, edit, and report on a wide array of complex data traditionally represented in paper forms. Once development began, I worked as a Software Engineer to design and build the application.</p><p>It can be challenging to successfully integrate modern web technologies with a legacy application, but the rewards are numerous. The foundation of the back end of this app was as an adapter class that would accept any of a variety of legacy document formats and allow our app to interact with them uniformly.This project also necessitated browser support back to IE8, so that provided some tricky problems to solve on the front end as well.</p>",
             "Example": [],
             "Skill": [1,2,3,4,6,7,8,10,11,35,12,13,14,16,17,36,18,19,20,21,22,23,24,25,30,31]
         },
@@ -291,9 +302,9 @@
             "portfolioID": 1,
             "seq": 200,
             "active": 1,
-            "name": "ndvr.co",
+            "name": "ndvr.co - Portfolio sharing web app",
             "blurb": "Resume and portfolio sharing web application written using AngularJS",
-            "description": "",
+            "description": "<p>My contributions to this project include:<ul><li>Front end development</li><li>Product concept</li><li>Requirements analysis</li><li>Schema design</li><li>Architecture</li><li>UI design</li></ul></p><p>ndvr.co is a web application that I created in less than a week in October 2014 in order to be able to easily put together and share my portfolio and resume. In fact, <strong>this very portfolio</strong> was created and is viewable at <a target=\"_blank\" href=\"http://ndvr.co/#/osmihi\">ndvr.co/#/osmihi</a>.</p><p>The app is written using JavaScript using the AngularJS and Underscore frameworks, and heavily utilizies Twitter Bootstrap for styling. Users can actually swap out different themes from Bootswatch to get a different look if they like.</p><p>At this time, static JSON files are used to serve the data. This was done in order to meet the \"Minimum Viable Project\" requirement I set on a Wednesday night, which was that I should be able to successfully present a resume and portfolio using the app by Monday. That being said, the app is structured as a platform to be used by many users. In the future, I plan to add a back-end to the site and open it up for use by anyone, but for now it simply serves my own content and functions as a conversation piece and a demonstration of some knowledge.</p><p>All of the project's code and analysis artifacts are available on <a target=\"_blank\" href=\"https://github.com/osmihi/ndvr\">GitHub</a>. Please check it out if you're interested.</p>",
             "Example": [],
             "Skill": [2,3,4,11,35,13,17,19,20,21,24,25,27,29]
         }
