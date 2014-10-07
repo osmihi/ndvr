@@ -26,6 +26,13 @@
 			"type": "web",
 			"subType": "linkedin",
 			"contact": "https://www.linkedin.com/pub/othman-smihi/4a/aab/354"
-		}
+		},
+        {
+            "contactID": 5,
+            "portfolioID": 1,
+            "type": "web",
+            "subType": "ndvr",
+            "contact": "/#/osmihi"
+        }
 	]
 }
