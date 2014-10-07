@@ -1,8 +1,9 @@
 <div>
     <div class="row">
         <div class="col-sm-12">
-            <div collapse="projectCollapsed" class="project-image pull-right" ng-show="getImage()">
-                <img ng-src="{{getImage().url}}" alt="{{getImage().description}}" class="img-thumbnail"/>
+            <div collapse="projectCollapsed" class="project-image text-center pull-right" ng-show="getImage()">
+                <img ng-src="{{getImage().url}}" alt="{{getImage().description}}" class="img-thumbnail"/><br/>
+                <span class="project-image-caption"><em><small>{{getImage().description}}</small></em></span>
             </div>
 
             <h4>

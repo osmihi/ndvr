@@ -6,7 +6,7 @@
 			"type": "image",
 			"seq": 1,
 			"url": "/img/osmihi/aguila.png",
-			"description": ""
+			"description": "Aguila de Esperanza home page"
 		},
         {
             "exampleID": 2,
@@ -14,7 +14,7 @@
             "type": "image",
             "seq": 1,
             "url": "/img/osmihi/battle.png",
-            "description": ""
+            "description": "Title screen of the Battle Game"
         },
         {
             "exampleID": 3,
@@ -22,7 +22,7 @@
             "type": "image",
             "seq": 1,
             "url": "/img/osmihi/chrisandothman.png",
-            "description": ""
+            "description": "Welcome/Info page for wedding guests"
         },
         {
             "exampleID": 4,
@@ -30,7 +30,7 @@
             "type": "image",
             "seq": 1,
             "url": "/img/osmihi/cleo.png",
-            "description": ""
+            "description": "Cleo the bunny"
         },
         {
             "exampleID": 5,
@@ -38,7 +38,7 @@
             "type": "image",
             "seq": 1,
             "url": "/img/osmihi/djcalc.png",
-            "description": ""
+            "description": "djCalculator web app"
         },
         {
             "exampleID": 6,
@@ -46,7 +46,7 @@
             "type": "image",
             "seq": 1,
             "url": "/img/osmihi/idea2.png",
-            "description": ""
+            "description": "Infinitely nestable lists help keep organized"
         },
         {
             "exampleID": 7,
@@ -54,7 +54,7 @@
             "type": "image",
             "seq": 1,
             "url": "/img/osmihi/jobs.png",
-            "description": ""
+            "description": "Entry form for a new job listing"
         },
         {
             "exampleID": 8,
@@ -62,7 +62,7 @@
             "type": "image",
             "seq": 1,
             "url": "/img/osmihi/meetings.png",
-            "description": ""
+            "description": "A modal dialog previewing notifications"
         },
         {
             "exampleID": 9,
@@ -70,7 +70,7 @@
             "type": "image",
             "seq": 1,
             "url": "/img/osmihi/ordrup.png",
-            "description": ""
+            "description": "Touch screen display for the kitchen"
         },
         {
             "exampleID": 10,
@@ -78,7 +78,7 @@
             "type": "image",
             "seq": 1,
             "url": "/img/osmihi/osmihi.png",
-            "description": ""
+            "description": "osmihi.com Studio photo gallery"
         },
         {
             "exampleID": 11,
@@ -86,7 +86,7 @@
             "type": "image",
             "seq": 1,
             "url": "/img/osmihi/scheduler.png",
-            "description": ""
+            "description": "Process workflow for the Meeting Scheduler"
         },
         {
             "exampleID": 12,
@@ -94,7 +94,7 @@
             "type": "image",
             "seq": 1,
             "url": "/img/osmihi/ndvr.png",
-            "description": ""
+            "description": "My portfolio on ndvr.co (this site)"
         }
 
 	]

@@ -31,6 +31,10 @@
     margin:1em;
 }
 
+.project-image-caption {
+    line-height:250%;
+}
+
 /* For contactLinks */
 .contact-list ul {
     padding-left: 0;
