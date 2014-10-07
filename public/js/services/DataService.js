@@ -45,6 +45,9 @@ app.factory('DataService', function($http) {
                     _.each(projects, function(project) {
                         getList('Skill', project.Skill, function(skills) {
                             project.Skill = skills;
+                            getList('Example', project.Example, function(examples) {
+                                project.Example = examples;
+                            });
                             portfolio.Project = projects;
                         });
                     });
