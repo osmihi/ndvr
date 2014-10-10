@@ -181,10 +181,10 @@
             "portfolioID": 1,
             "seq": 150,
             "active": 0,
-            "name": "Easter Egg Delivery Simulation",
-            "blurb": "Java project utilizing complex operating systems concepts like synchronization",
+            "name": "Operating Systems synchronization project",
+            "blurb": "Java project utilizing complex operating systems concepts like synchronization to simulate the logistics of product delivery",
             "description": "",
-            "Example": [4],
+            "Example": [],
             "Skill": [1,18,21,23,25]
         },
         {
@@ -270,8 +270,8 @@
             "seq": 187,
             "active": 0,
             "name": "ReadID3 Javascript library",
-            "blurb": "Javascript library used to read information from ID3 tags contained in MP3 files",
-            "description": "<p>My contributions to this project include:<ul><li>Understanding ID3 standard (multiple versions)</li><li>Converting Java code to Javascript</li><li>Reading and interpreting binary data from files</li></ul></p><p>While working on djCalculator.com, I wanted to implement a feature that would allow users to import the metadata from the ID3 tags in MP3 files. While there are many implementation of ID3 tag readers available, they are most often in server-side languages. Given that djCalculator is a JavaScript-based web app, it made much more sense to create a library capable of perform this function that is native to the browser.</p><p>Developing this code involved researching and understanding the ID3 standard (multiple versions), reading binary data from files, and converting Java code to Javascript.</p><p>Epilogue: After discovering another, more robust Javascript library that accomplishes the same task, I set aside this project and instead implemented the other library in the djCalculator application. I did, however, modify the other library to improve its error handling.</p>",
+            "blurb": "Javascript library used to read information from ID3 tags from MP3 files directly in the browser",
+            "description": "<p>My contributions to this project include:<ul><li>Understanding ID3 standard (multiple versions)</li><li>Porting Java code to Javascript</li><li>Reading and interpreting binary data from files using Javascript</li></ul></p><p>While working on djCalculator.com, I wanted to implement a feature that would allow users to import the metadata from the ID3 tags in MP3 files. While there are many implementations of ID3 tag readers available, they are most often in server-side languages. Given that djCalculator is a JavaScript-based web app, it made much more sense to create a library capable of perform this function that is native to the browser.</p><p>Developing this code involved researching and understanding the ID3 standard (multiple versions), reading binary data from files, and converting Java code to Javascript.</p><p>Epilogue: After discovering another, more robust Javascript library that accomplishes the same task, I set aside this project and instead implemented the other library in the djCalculator application. I did, however, modify the other library to improve its error handling.</p>",
             "Example": [],
             "Skill": [1,2,13,25]
         },
