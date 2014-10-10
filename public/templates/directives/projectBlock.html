@@ -6,8 +6,8 @@
                 <span class="project-image-caption"><em><small>{{getImage().description}}</small></em></span>
             </div>
 
-            <h4>
-                <span ng-click="projectCollapsed = !projectCollapsed" ng-class="{'project-collapse':true, glyphicon:true, 'glyphicon-chevron-down':!projectCollapsed, 'glyphicon-chevron-right':projectCollapsed}" ng-show="project.description.length > 0"></span>
+            <h4 class="project-title" ng-click="projectCollapsed = !projectCollapsed">
+                <span ng-class="{'project-collapse':true, glyphicon:true, 'glyphicon-chevron-down':!projectCollapsed, 'glyphicon-chevron-right':projectCollapsed}" ng-show="project.description.length > 0"></span>
                 {{project.name}}
                 <small ng-if="project.active == 1">
                     <span class="label label-success">Active</span>
