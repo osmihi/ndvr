@@ -139,7 +139,11 @@ CREATE TABLE IF NOT EXISTS `smihi83_ndvr`.`Project` (
   `portfolioID` INT NOT NULL,
   `educationID` INT NULL,
   `workID` INT NULL,
+  `display` INT NULL,
+  `seq` INT NULL,
+  `active` BOOLEAN NULL,
   `name` VARCHAR(128) NOT NULL,
+  `summary` VARCHAR(256) NULL,
   `description` TEXT NULL,
 
   PRIMARY KEY (`projectID`),
