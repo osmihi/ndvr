@@ -1,0 +1,104 @@
+<div id="api-tester" class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>
+                API Tester
+                <small>
+                    <button ng-click="reset()" class="pull-right btn-default">Reset</button>
+                    <button ng-click="submitRequest()" class="pull-right btn-primary">Submit request</button>
+                </small>
+            </h2>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <!-- Request type -->
+            <div>
+                <h4>Request Type</h4>
+                <div ng-repeat="rq in requestTypes">
+                    <input type="radio" id="rq{{rq.method}}" name="rqType" value="{{rq.method}}" ng-model="request.requestType"/>
+                    <label for="rq{{rq.method}}">{{rq.method}} <small>({{rq.descriptor}})</small></label>
+                </div>
+            </div>
+
+            <!-- Resource fields -->
+            <div id="request-resource">
+                <h4>Resource(s)</h4>
+                <div>
+                    <label for="resource">Resource</label>
+                    <select id="resource" ng-model="request.resource" ng-options="rsc.name for rsc in resources |orderBy:'name'"></select>
+                </div>
+                <div>
+                    <label for="key">Key</label>
+                    <input type="number" id="key" ng-model="request.key"/>
+                </div>
+                <div>
+                    <label for="subResource">Sub Resource</label>
+                    <select id="subResource" ng-model="request.subResource" ng-options="subRsc for subRsc in request.resource.subResources" ng-enabled="request.resource.subResources.length > 0">
+                        <option value=""></option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Additional params -->
+            <div id="request-parameters">
+                <h4>Parameters</h4>
+
+                <div id="parameters-info">
+                    <small>Add additional request parameters below</small>
+                    <button ng-click="request.addParam()" class="pull-right btn-xs btn-primary">
+                        <span class="glyphicon glyphicon-plus"></span> Add
+                    </button>
+                </div>
+
+                <div ng-repeat="param in request.params | filter:'!auth'" class="request-param">
+                    <button ng-click="request.removeParam(param)" class="btn-xs btn-default">
+                        <span class="glyphicon glyphicon-remove"></span>
+                    </button>
+                    <input type="text" ng-model="param.name" ng-required="true" placeholder="Name" typeahead="param for param in getSuggestedParameters()"/>
+                    :
+                    <input type="text" ng-model="param.value" placeholder="Value"/>
+                </div>
+
+
+            </div>
+
+            <!-- User data -->
+            <div id="request-auth">
+                <h4>Authorization</h4>
+                <div>
+                    <label for="auth_username">Username</label>
+                    <input type="text" id="auth_username" ng-model="request.auth.username"/>
+                </div>
+                <div>
+                    <label for="auth_password">Password</label>
+                    <input type="password" id="auth_password" ng-model="request.auth.password"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <!-- Show request url + body -->
+            <div>
+                <h4>Request Content</h4>
+                <div>
+                    <label for="requestUrl">URL</label>
+                    <pre id="requestUrl">{{request.requestType}} {{request.getUrl()}}</pre>
+                </div>
+                <div>
+                    <label for="requestBody">Body</label>
+                    <pre id="requestBody">{{request.getBodyText()}}</pre>
+                </div>
+            </div>
+
+            <!-- Display result -->
+            <div collapse="getResponseText() && getResponseText() != ''">
+                <h4>Response</h4>
+                <pre id="responseContent">{{getResponseText()}}</pre>
+            </div>
+
+        </div>
+    </div>
+</div>

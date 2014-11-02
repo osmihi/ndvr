@@ -3,21 +3,22 @@
 var app = angular.module('ndvr', ['ui.bootstrap', 'ngResource', 'ngRoute', 'ngSanitize'])
     .config(function ($routeProvider) {
 
-        $routeProvider.when('/:username',
+        $routeProvider.when('/apiTester',
+            {
+                templateUrl: 'templates/apiTester.html',
+                controller: 'APITesterController'
+            }
+        ).when('/:username',
             {
                 templateUrl: 'templates/portfolio.html',
                 controller: 'PortfolioController'
             }
-        );
-		
-		$routeProvider.when('/',
+        ).when('/',
 			{
 				templateUrl: 'templates/home.html',
 				controller: 'HomeController'
 			}
-		);
-
-        $routeProvider.otherwise(
+        ).otherwise(
             {
                 redirectTo: '/'
             }
