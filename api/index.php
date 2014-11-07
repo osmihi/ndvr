@@ -1,1 +1,5 @@
-<html><body><h1>hi</h1></body></html>
+<?php
+
+require_once('APIController.php');
+
+$ac = new APIController(5);
